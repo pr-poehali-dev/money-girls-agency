@@ -243,7 +243,7 @@ const Index = () => {
               <div className="space-y-2 text-purple-100">
                 <p className="flex items-center gap-2">
                   <Icon name="Mail" size={18} />
-                  info@moneygirls.com
+                  evelinakaiditova@gmail.com
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="MessageCircle" size={18} />
