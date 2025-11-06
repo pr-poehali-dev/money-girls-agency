@@ -247,7 +247,7 @@ const Index = () => {
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="MessageCircle" size={18} />
-                  @moneygirls_support
+                  @EvelinaKaiditova
                 </p>
               </div>
             </div>
