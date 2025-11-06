@@ -141,47 +141,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="vacancies" className="py-20 px-6">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h3 className="text-4xl font-heading font-bold mb-4">Открытые вакансии</h3>
-            <p className="text-lg text-muted-foreground">
-              Выбери подходящую позицию и начни зарабатывать
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {vacancies.map((vacancy, index) => (
-              <Card key={index} className="border-2 hover:border-primary transition-all hover:shadow-xl duration-300 bg-white/80 backdrop-blur">
-                <CardHeader>
-                  <div className="flex justify-between items-start mb-2">
-                    <CardTitle className="font-heading text-2xl">{vacancy.title}</CardTitle>
-                    <Badge className="text-base px-3 py-1 bg-primary/10 text-primary border-primary/20">
-                      {vacancy.salary}
-                    </Badge>
-                  </div>
-                  <CardDescription className="text-base leading-relaxed">{vacancy.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-3">
-                    <p className="font-medium text-sm text-foreground/70 uppercase tracking-wide">Требования:</p>
-                    <ul className="space-y-2">
-                      {vacancy.requirements.map((req, idx) => (
-                        <li key={idx} className="flex items-center gap-2 text-muted-foreground">
-                          <Icon name="Check" size={18} className="text-primary flex-shrink-0" />
-                          <span>{req}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <Button className="w-full mt-6 shadow-lg shadow-primary/20" onClick={() => document.getElementById('apply')?.scrollIntoView({ behavior: 'smooth' })}>
-                    Откликнуться на вакансию
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       <section id="faq" className="py-20 px-6 bg-white/50">
         <div className="container mx-auto max-w-3xl">
