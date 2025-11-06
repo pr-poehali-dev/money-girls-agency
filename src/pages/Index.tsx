@@ -79,7 +79,6 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-heading font-bold text-primary">Money Girls</h1>
           <div className="flex gap-6 items-center">
-            <a href="#vacancies" className="text-sm font-medium hover:text-primary transition-colors">Вакансии</a>
             <a href="#benefits" className="text-sm font-medium hover:text-primary transition-colors">Преимущества</a>
             <a href="#faq" className="text-sm font-medium hover:text-primary transition-colors">FAQ</a>
             <Button size="sm" className="shadow-lg shadow-primary/20" onClick={() => document.getElementById('apply')?.scrollIntoView({ behavior: 'smooth' })}>
