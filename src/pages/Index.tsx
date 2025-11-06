@@ -47,7 +47,7 @@ const Index = () => {
     { icon: 'Globe', title: 'Работа из дома', description: 'Из любой точки мира, нужен только интернет' },
     { icon: 'TrendingUp', title: 'Высокий доход', description: 'Зарабатывайте от 50 000 ₽ в месяц и больше' },
     { icon: 'Users', title: 'Поддержка 24/7', description: 'Команда всегда на связи и поможет с любым вопросом' },
-    { icon: 'Award', title: 'Обучение', description: 'Бесплатное обучение и материалы для новичков' },
+    { icon: 'Award', title: 'Обучение', description: 'Бесплатное обучение от нашего агентства' },
   ];
 
   const faqs = [
